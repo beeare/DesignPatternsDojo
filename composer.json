@@ -1,6 +1,6 @@
 {
     "name": "beeare/design-patterns-dojo",
-    "description": "Sample code for design pattern excercises in PHP",
+    "description": "Sample code for design pattern exercises in PHP",
     "authors": [
         {
             "name": "Benjamin Rack",
@@ -10,7 +10,8 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require-dev": {
-        "phpunit/phpunit": "@stable"
+        "phpunit/phpunit": "@stable",
+        "mockery/mockery": "dev-master"
     },
     "autoload": {
         "psr-4": {
