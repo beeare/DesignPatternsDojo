@@ -1,0 +1,20 @@
+{
+    "name": "beeare/design-patterns-dojo",
+    "description": "Sample code for design pattern excercises in PHP",
+    "authors": [
+        {
+            "name": "Benjamin Rack",
+            "email": "beeare@gmx.de"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require-dev": {
+        "phpunit/phpunit": "@stable"
+    },
+    "autoload": {
+        "psr-4": {
+            "DesignPatterns\\": "src"
+        }
+    }
+}
