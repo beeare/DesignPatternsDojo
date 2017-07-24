@@ -4,9 +4,7 @@
          bootstrap="./vendor/autoload.php"
          beStrictAboutCoversAnnotation="true"
          beStrictAboutOutputDuringTests="true"
-         beStrictAboutTodoAnnotatedTests="true"
-         verbose="true"
-         colors="true">
+         beStrictAboutTodoAnnotatedTests="true">
     <testsuites>
         <testsuite name="Tests for Design Pattern Exercises">
             <directory>tests</directory>
