@@ -6,7 +6,5 @@ interface User
 {
     public function hasAdminRights(): bool;
 
-    public function getRoles(): array;
-
     public function getUserName(): string;
 }

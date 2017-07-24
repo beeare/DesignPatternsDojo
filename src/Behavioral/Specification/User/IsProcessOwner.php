@@ -2,16 +2,9 @@
 
 namespace DesignPatterns\Behavioral\Specification\User;
 
-class UserIsProcessOwner implements UserSpecification
+class IsProcessOwner implements UserSpecification
 {
-    /**
-     * @var ProcessRepository
-     */
     private $processRepository;
-
-    /**
-     * @var string
-     */
     private $processName;
 
     public function __construct(ProcessRepository $processRepository, string $processName)

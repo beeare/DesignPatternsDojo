@@ -2,7 +2,7 @@
 
 namespace DesignPatterns\Behavioral\Specification\User;
 
-class UserIsMemberOfRole implements UserSpecification
+class IsMemberOfRole implements UserSpecification
 {
     private $roleRepository;
     private $roleName;

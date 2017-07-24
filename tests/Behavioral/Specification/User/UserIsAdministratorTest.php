@@ -14,7 +14,7 @@ class UserIsAdministratorTest extends TestCase
 
     protected function setUp()
     {
-        $this->specification = new UserIsAdministrator();
+        $this->specification = new IsAdministrator();
     }
 
     /**

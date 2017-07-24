@@ -20,7 +20,7 @@ class UserIsMemberOfRoleTest extends TestCase
     {
         $this->roleRepository = m::mock('DesignPatterns\Behavioral\Specification\User\RoleRepository');
         $this->roleName = 'myRole';
-        $this->specification = new UserIsMemberOfRole($this->roleRepository, $this->roleName);
+        $this->specification = new IsMemberOfRole($this->roleRepository, $this->roleName);
     }
 
     /**

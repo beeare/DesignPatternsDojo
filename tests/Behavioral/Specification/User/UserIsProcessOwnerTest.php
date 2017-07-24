@@ -20,7 +20,7 @@ class UserIsProcessOwnerTest extends TestCase
     {
         $this->processRepository = m::mock('DesignPatterns\Behavioral\Specification\User\ProcessRepository');
         $this->processName = 'myFirstProcess';
-        $this->specification = new UserIsProcessOwner($this->processRepository, $this->processName);
+        $this->specification = new IsProcessOwner($this->processRepository, $this->processName);
     }
 
     /**

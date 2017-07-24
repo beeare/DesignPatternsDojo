@@ -2,7 +2,7 @@
 
 namespace DesignPatterns\Behavioral\Specification\User;
 
-class UserIsAdministrator implements UserSpecification
+class IsAdministrator implements UserSpecification
 {
     public function isSatisfiedBy(User $user): bool
     {
