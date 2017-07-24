@@ -5,7 +5,7 @@ namespace DesignPatterns\Behavioral\Specification\User;
 use Mockery as m;
 use PHPUnit\Framework\TestCase;
 
-class UserIsMemberOfRoleTest extends TestCase
+class IsMemberOfRoleTest extends TestCase
 {
     use m\Adapter\Phpunit\MockeryPHPUnitIntegration;
 

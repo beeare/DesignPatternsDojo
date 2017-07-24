@@ -5,7 +5,7 @@ namespace DesignPatterns\Behavioral\Specification\User;
 use Mockery as m;
 use PHPUnit\Framework\TestCase;
 
-class UserIsProcessOwnerTest extends TestCase
+class IsProcessOwnerTest extends TestCase
 {
     use m\Adapter\Phpunit\MockeryPHPUnitIntegration;
 
